@@ -2,7 +2,7 @@
 
 **dfg**
 
-**_dfg(dataframe, group_by, select)_** function takes as an input a datarame of the following format:
+_dfg(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
 
 |  Year  |  AIS  |  SJR  |   B   |  C  | 
 |--------|-------|-------|-------|-----|
@@ -13,7 +13,7 @@
 |  2016  | 16234 | 31051 | 1200  | 300 |
 |  2017  | 18001 | 35015 | 998   | 777 |
 
-And based on specified parameters returns reorganized dataframe, e.g. for **_dfg(dataframe, "Year", ["B", "C"])_** we get:
+And based on specified parameters returns reorganized dataframe, e.g. for _dfg(dataframe, "Year", ["B", "C"])_ we get:
 
 |  Year  | Values |  Type |
 |--------|--------|-------|
