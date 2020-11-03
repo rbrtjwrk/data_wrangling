@@ -11,4 +11,4 @@
 |  2016  | 16234 | 31051 | 1200  | 300 |
 |  2017  | 18001 | 35015 | 998   | 777 |
 
-**and based on specified parameters returns reorganized dataframe, e.g. for _dfg(sample_data, "Year", ["B", "C"])_ we get:**
+**and based on specified parameters returns reorganized dataframe, e.g. for _dfg(data, "Year", ["B", "C"])_ we get:**
