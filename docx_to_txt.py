@@ -26,4 +26,3 @@ def process_docx_to_txt(directory):
         file_name=file.partition("\\")[2].partition(".")[0]
         write_txt(directory, file_name, text)
        
-      
