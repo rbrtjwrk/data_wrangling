@@ -33,6 +33,8 @@ And based on specified parameters returns reorganized dataframe, e.g. for _dfg(d
 Which is quite useful if we want to further visualize the data using ggplot2.
 
 
+
+
 **docx_to_txt**
 
 _process_docx_to_txt(directory)_ function processes all .docx files in given directory into .txt files.
