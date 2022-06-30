@@ -1,3 +1,4 @@
+import pandas as pd
 import numpy as np
 
 def onehot(dataframe, labels_colname):
