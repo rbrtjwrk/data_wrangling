@@ -1,8 +1,8 @@
 # data_wrangling
 
-## data_to_plot
+## data_for_plot
 
-_data_to_plot(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
+_data_for_plot(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
 
 |  Year  |  AIS  |  SJR  |   B   |  C  | 
 |--------|-------|-------|-------|-----|
@@ -13,7 +13,7 @@ _data_to_plot(dataframe, group_by, select)_ function takes as an input a dataram
 |  2016  | 16234 | 31051 | 1200  | 300 |
 |  2017  | 18001 | 35015 | 998   | 777 |
 
-And based on specified parameters returns reorganized dataframe, e.g. for _data_to_plot(dataframe, "Year", ["B", "C"])_ we get:
+And based on specified parameters returns reorganized dataframe, e.g. for _data_for_plot(dataframe, "Year", ["B", "C"])_ we get:
 
 |  Year  | Values |  Type |
 |--------|--------|-------|
