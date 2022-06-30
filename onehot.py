@@ -14,5 +14,3 @@ def onehot(dataframe, labels_colname):
     for i, row in enumerate(dataframe.itertuples(), 0):
         output[row[label_col]][i]=1
     return output
-
- 
