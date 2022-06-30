@@ -10,15 +10,13 @@ def docx_to_txt(file):
     return txt
 
 
-
 def write_txt(directory, file_name, text):
     """Writes a .txt file in a chosen directory.
     """
     with open(directory+file_name+".txt", 'w') as f:  
         f.write(text)
 
-        
-
+       
 def process_docx_to_txt(directory):
     """Processes all .docx files in given directory to .txt files.
     """
