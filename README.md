@@ -48,7 +48,7 @@ _onehot(dataframe, labels_colname)_ function encodes a dataframe containting a c
 | Outline              | novel    |
 | Inventing the Future | politics |
 
-➡
+⇨
 
 | novel | politics |
 |-------|----------|
