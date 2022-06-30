@@ -1,6 +1,6 @@
 # data_wrangling
 
-**dfg**
+## dfg
 
 _dfg(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
 
@@ -34,15 +34,13 @@ Which is quite useful if we want to further visualize the data using ggplot2.
 \
 \
 \
-\
-**docx_to_txt**
+## docx_to_txt
 
 _process_docx_to_txt(directory)_ function processes all .docx files in given directory to .txt files.
 \
 \
 \
-\
-**onehot**
+## onehot
 
 _onehot(dataframe, labels_colname)** function encodes a dataframe containting a column with exactly one label per one row to onehot. Returns only the onehot encoded dataframe without any data from the original one.
 
