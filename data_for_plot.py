@@ -28,3 +28,4 @@ def data_for_plot(dataframe, group_by, select):
     output["type"]=select*len(dataframe)
     return output
 
+
