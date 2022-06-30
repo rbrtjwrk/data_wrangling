@@ -1,6 +1,6 @@
 import pandas as pd
 
-def dfg(dataframe, group_by, select):
+def data_for_plot(dataframe, group_by, select):
     """Transforms dataset input based
     on parameters - group_by, select.
     Duplicates rows based on group_by
