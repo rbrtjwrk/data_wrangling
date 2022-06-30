@@ -6,8 +6,6 @@ _data_for_plot(dataframe, group_by, select)_ function takes as an input a datara
 
 |  Year  |  AIS  |  SJR  |   B   |  C  | 
 |--------|-------|-------|-------|-----|
-|  2012  | 11202 | 23005 | 909.8 | 400 |
-|  2013  | 13400 | 25600 | 800   | 200 |
 |  2014  | 13987 | 27000 | 2310  | 325 |
 |  2015  | 15044 | 29876 | 1708  | 200 |
 |  2016  | 16234 | 31051 | 1200  | 300 |
@@ -17,10 +15,6 @@ And based on specified parameters returns reorganized dataframe, e.g. for _data_
 
 |  Year  | Values |  Type |
 |--------|--------|-------|
-|  2012  | 909.8  | B     |
-|  2012  | 400    | C     |
-|  2013  | 800    | B     |
-|  2013  | 200    | C     |
 |  2014  | 2310   | B     |
 |  2014  | 325    | C     |
 |  2015  | 1708   | B     |
