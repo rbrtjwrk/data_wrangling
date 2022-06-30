@@ -1,8 +1,8 @@
 # data_wrangling
 
-## dfg
+## dfp ### (i.e. data for plot)
 
-_dfg(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
+_dfp(dataframe, group_by, select)_ function takes as an input a datarame of the following format:
 
 |  Year  |  AIS  |  SJR  |   B   |  C  | 
 |--------|-------|-------|-------|-----|
