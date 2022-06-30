@@ -43,4 +43,5 @@ _process_docx_to_txt(directory)_ function processes all .docx files in given dir
 \
 \
 **onehot**
+
 _onehot(dataframe, labels_colname)** function encodes a dataframe containting a column with exactly one label per one row to onehot. Returns only the onehot encoded dataframe  without the original data.
