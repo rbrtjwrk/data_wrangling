@@ -1,4 +1,4 @@
-# data_wrangling
+# data wrangling
 
 ## data_for_plot
 
